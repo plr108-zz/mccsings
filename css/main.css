@@ -7,17 +7,16 @@
     border: 1px solid black;
 }
 
-.header {
-	background-color: #9e1111;
+/* vertaical alignment of content in a Bootstrap column */
+.vertical-align {
+  display: flex;
+  flex-direction: row;
 }
 
-.tagline {
-	display: inline-block;
-
-}
-
-.header_row{
-	background-color: blue;
+.vertical-align > [class^="col-"],
+.vertical-align > [class*=" col-"] {
+  display: flex;
+  align-items: center;
 }
 
 .social {
