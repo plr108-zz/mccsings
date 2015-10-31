@@ -1,0 +1,39 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+    color: #676;
+}
+
+.col-md-12, .col-md-8, .col-md-6, .col-md-4 {
+    border: 1px solid black;
+}
+
+.header {
+	background-color: #9e1111;
+}
+
+.tagline {
+	display: inline-block;
+
+}
+
+.header_row{
+	background-color: blue;
+}
+
+.social {
+    text-align: right;
+}
+
+.featured {
+    color: #BCB;
+}
+
+.nav>li>a {
+	color: white;
+	background-color: #9e1111;
+}
+
+.nav>li>a:hover,
+.nav>li>a:focus {
+    background-color: #9e1111;
+}

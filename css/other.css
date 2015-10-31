@@ -1,0 +1,47 @@
+.vertical-align {
+  display: flex;
+  flex-direction: row;
+}
+
+.vertical-align > [class^="col-"],
+.vertical-align > [class*=" col-"] {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Optional, to align inner items
+                              horizontally inside the column */
+}
+
+/**
+ *  Do NOT include this part into your stylesheet.
+ *  "flex: 1" or "flex-grow: 1" is added to make the inner div
+ *  - Which is also a flex-item - take up all the horizontal space
+ *  available space inside the flex container (.col-* elements)
+ */
+.vertical-align > [class^="col-"] > div,
+.vertical-align > [class*=" col-"] > div {
+  /* flex: 1; */
+  flex-grow: 1;
+}
+
+
+/**
+ * S T Y L I N G
+ ==================================*/
+
+.vertical-align > div:first-child {
+  background-color: red;
+                             /* This is just for demonstration of
+                                padding-box of the columns.
+
+                                I added this background to show
+                                the height of the columns         */
+}
+
+.vertical-align > div:last-child {
+  background-color: blue;
+                             /* This is just for demonstration of
+                                padding-box of the columns.
+
+                                I added this background to show
+                                the height of the columns         */
+}
