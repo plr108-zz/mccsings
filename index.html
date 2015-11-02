@@ -9,8 +9,9 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
 
     <!--Using Bootstrap-->
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/navbar.css" >
 
     <!--Google Fonts-->
     <link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
@@ -30,43 +31,56 @@
             </div>
         </div>
 <!--Start Navbar-->
-        <div>
-            <nav class="col-md-12 navbar navbar-inverse">
-                <div class="container-fluid">
-
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                      </button>
-                      <a class="navbar-brand" href="#">WebSiteName</a>
-                    </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#">Page 1</a></li>
-                        <li><a href="#">Page 2</a></li>
-                        <li><a href="#">Page 3</a></li>
-                    </ul>
-
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#"><span class="icon-bar"></span> Facebook</a></li>
-                        <li><a href="#"><span class="icon-bar"></span> Twitter</a></li>
-                        <li><a href="#"><span class="icon-bar"></span> Instagram</a></li>
-                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </div>
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!--Commented out
+            <a class="navbar-brand" href="#">Masterworks Concert Chorale</a>
+            -->
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Concerts and Tickets</a></li>
+              <li><a href="#">Listen!</a></li>
+              <li><a href="#">Join Us!</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="">Facebook</a></li>
+              <li><a href="">Twitter</a></li>
+              <li><a href="">Instagram</a></li>
+              <li><a href="">MCC Login</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <h1>Vivaldi's Gloria</h1>
+        <p>Really awesome description of Vivaldi's Gloria and also the other stuff we are singing!  Join us!  Date!  Time!  Venue!</p>
+        <p>
+          <a class="btn btn-lg btn-primary" href="" role="button">Tickets and Directions &raquo;</a>
+        </p>
+      </div>
 <!--End Navbar-->
-        <div class="row">
-            <div class="col-md-12">
-                <img class="img-responsive" src="http://placehold.it/1100x400" alt="Featured Work Placeholder Image">
-            </div>
-        </div>
-
         <div class="row">
             <div class="col-md-4">
                 <img class="img-responsive" src="http://placehold.it/200x100" alt="Other Work 1 Placeholder Image">
@@ -87,5 +101,10 @@
             </div>
         </div>
     </div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
