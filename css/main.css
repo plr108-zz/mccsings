@@ -36,3 +36,12 @@
 .nav>li>a:focus {
     background-color: #9e1111;
 }
+
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
