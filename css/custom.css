@@ -63,3 +63,16 @@ i {
     color: #9e1111;
     border: 1px solid black;
 }
+
+.caption h3 {
+  text-align: center;
+
+}
+
+.caption p {
+  text-align: center;
+}
+
+.social-bottom {
+  text-align: center;
+}
