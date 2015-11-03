@@ -52,3 +52,14 @@ i {
     background-color: white;
     color: #9e1111;
 }
+
+.dropdown-menu > li > a {
+  border: 1px solid white;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    background-color: white;
+    color: #9e1111;
+    border: 1px solid black;
+}
