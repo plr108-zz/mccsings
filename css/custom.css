@@ -19,28 +19,14 @@
   align-items: center;
 }
 
-.btn-primary {
-  background-color: #9e1111;
-  border-color: black;
-}
-
-.nav>li>a {
+.navbar-inverse .nav>li>a {
 	color: white;
 	background-color: #9e1111;
 }
 
-.navbar-inverse,
-.navbar-nav>li>a {
-  color: white;
-}
-
-.fa-lg {
-  color:white;
-}
-
-.nav>li>a:hover,
+.navbar-inverse .nav>li>a:hover,
 .nav>li>a:focus {
-    background-color: #9e1111;
+    background-color: black;
 }
 
 body {
@@ -50,4 +36,19 @@ body {
 
 .navbar {
   margin-bottom: 20px;
+  background-color: #9e1111;
+}
+
+i {
+  color:white;
+}
+
+.btn-primary {
+  background-color: #9e1111;
+  border-color: black;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+    background-color: white;
+    color: #9e1111;
 }
