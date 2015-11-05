@@ -8,13 +8,13 @@
 }
 
 /* vertaical alignment of content in a Bootstrap column */
-.vertical-align {
+.adjust-vert {
   display: flex;
   flex-direction: row;
 }
 
-.vertical-align > [class^="col-"],
-.vertical-align > [class*=" col-"] {
+.adjust-vert > [class^="col-"],
+.adjust-vert > [class*=" col-"] {
   display: flex;
   align-items: center;
 }
@@ -27,6 +27,15 @@
 .navbar-inverse .nav>li>a:hover,
 .nav>li>a:focus {
     background-color: black;
+}
+
+.navbar-inverse .navbar-brand {
+  color: white;
+}
+
+.navbar-inverse .navbar-brand:hover {
+  color: white;
+  background-color: black;
 }
 
 body {
@@ -51,6 +60,7 @@ i {
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
     background-color: white;
     color: #9e1111;
+    border: 1px solid black;
 }
 
 .dropdown-menu > li > a {
@@ -75,4 +85,20 @@ i {
 
 .social-bottom {
   text-align: center;
+}
+
+.thumbnail:hover,
+.thumbnail:focus,
+.thumbnail:active {
+  border: 1px solid #9e1111;
+}
+
+.jumbotron {
+  border: 1px solid #eee;
+}
+
+.jumbotron:hover,
+.jumbotron:focus,
+.jumbotron:active {
+  border: 1px solid #9e1111;
 }
