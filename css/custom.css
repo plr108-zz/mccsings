@@ -31,6 +31,13 @@
       }
 }
 
+@media only screen and (min-width: 769px) {
+  .navbar-brand {
+    display: none;
+  }
+
+}
+
 @media only screen and (max-width: 768px) {
   .footer {
         display: none;
@@ -39,20 +46,22 @@
 
 @media only screen and (max-width: 700px) {
   .header-logo {
-    background-color: purple;
     margin: 0 auto;
     max-width: 100%;
     display: block;
+    width: 200px;
   }
 
   .tagline {
-    display: block;
-    flex-direction: row;
-    font-size: 16px;
-    text-align: center;
+    display: none;
   }
 }
 
+@media only screen and (max-width: 420px) {
+  .navbar-brand {
+    font-size: 12px;
+  }
+}
 
 .navbar-inverse .nav>li>a:hover,
 .nav>li>a:focus {
@@ -110,10 +119,6 @@ i {
 }
 
 .caption p {
-  text-align: center;
-}
-
-.social-bottom {
   text-align: center;
 }
 

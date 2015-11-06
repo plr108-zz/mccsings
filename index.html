@@ -15,6 +15,18 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!--Using Bootstrap-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--Using jQuery-->
+    <script src="js/jquery-1.11.3.min.js"></script>
+
+    <!--Enable Tooltips-->
+    <script>
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+    </script>
+    <!--End Enable Tooltips-->
+
+
     <link rel="stylesheet" href="css/custom.css">
 
     <!--Favicon-->
@@ -23,29 +35,32 @@
 </head>
 
 <body>
-
-    <!-- code required for Facebook link
-    ================================================== -->
+    <!-- Start Facebook like/share root div and script-->
     <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!-- End Facebook like/share root div and script-->
+
 
     <!-- Start Bootstrap container -->
     <div class="container">
+        <!--Start Header-->
         <div class="row header_row adjust-vert">
-            <div class="col-md-4 header">
+            <div class="col-md-4">
                 <img class="header-logo" src="images/logo.png" alt="Masterworks Concert Chorale">
             </div>
             <div class="col-md-8 header">
                 <h3 class="tagline">Music something something Pittsburgh</h3>
             </div>
         </div>
-<!--Start Navbar-->
+        <!--End Heaader-->
+    <!--Start Navbar-->
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -55,9 +70,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <!--Commented out
-                    <a class="navbar-brand" href="#">Masterworks Concert Chorale</a>
-                    -->
+                    <a class="navbar-brand" href="#" >Masterworks Concert Chorale</a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
@@ -76,23 +89,40 @@
                         </li>
                         <li><a href="#">Concerts and Tickets</a></li>
                         <li><a href="#">Listen!</a></li>
-                        <li><a href="#">Join Us!</a></li>
+                        <li class="social-collapse"><a href="#">Join Us!</a></li>
                     </ul>
+
+
+
                     <ul class="nav navbar-nav navbar-right">
 
+                    <!--Social dropdown--
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact / Social<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Mission Statement</a></li>
+                          <li><a href="#">History</a></li>
+                          <li role="separator" class="divider"></li>
+                          <li><a href="#">Board of Directors</a></li>
+                          <li><a href="#">Artistic Director</a></li>
+                          <li><a href="#">Accompanist</a></li>
+                          <li><a href="#">Members of the Chorus</a></li>
+                        </ul>
+                        </li>
+                    <!--End Social dropdown-->
 
-
-
-                        <li class="social-collapse"><a href=""><i class="fa fa-envelope-square fa-lg" ></i>&nbsp;&nbsp;&nbsp;Contact Us</a></li>
-                        <li class="social-collapse"><a href="https://www.facebook.com/Masterworks-Concert-Chorale-152919821389553/" target="_blank"><i class="fa fa-facebook-official fa-lg" ></i></a></li>
-                        <li class="social-collapse"><a href="https://twitter.com/search?f=tweets&amp;q=%40MCCSingsPittsburgh&amp;src=typd" target="_blank"><i class="fa fa-twitter-square fa-lg"></i></a></li>
-                        <li class="social-collapse"><a href="https://instagram.com/explore/tags/mccsingspittsburgh/" target="_blank"><i class="fa fa-instagram fa-lg"></i></a></li>
-                        <li><a href=""><i class="fa fa-music fa-lg"></i>&nbsp;&nbsp;&nbsp;MCC Login</a></li>
+                        <li><a href=""><i class="fa fa-envelope-square fa-lg"></i><!--&nbsp;&nbsp;Contact Us--></a></li>
+                        <li><a href="https://www.facebook.com/Masterworks-Concert-Chorale-152919821389553/" target="_blank"><i class="fa fa-facebook-official fa-lg" ></i></a></li>
+                        <li><a href="https://twitter.com/search?f=tweets&amp;q=%40MCCSingsPittsburgh&amp;src=typd" target="_blank"><i class="fa fa-twitter-square fa-lg"></i></a></li>
+                        <li><a href="https://instagram.com/explore/tags/mccsingspittsburgh/" target="_blank"><i class="fa fa-instagram fa-lg"></i></a></li>
+                        <li ><a href=""><i class="fa fa-music fa-lg"></i>&nbsp;&nbsp;<!--MCC Login--></a></li>
                     </ul>
                 </div><!--/.nav-collapse -->
+
             </div><!--/.container-fluid -->
         </nav>
-<!--End Navbar-->
+    <!--End Navbar-->
+
 <!--Start Jumbotron-->
         <div class="jumbotron">
             <h1>Vivaldi's Gloria</h1>
@@ -155,7 +185,7 @@
                         <li><a href="#">Home</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#"><i class="fa fa-envelope-square fa-lg" ></i>&nbsp;&nbsp;&nbsp;Contact Us</a></li>
+                        <li><a href="#"><i class="fa fa-envelope-square fa-lg" ></i><!--&nbsp;&nbsp;&nbsp;Contact Us--></a></li>
                         <li><a href="https://www.facebook.com/Masterworks-Concert-Chorale-152919821389553/" target="_blank"><i class="fa fa-facebook-official fa-lg" ></i></a></li>
                         <li><a href="https://twitter.com/search?f=tweets&amp;q=%40MCCSingsPittsburgh&amp;src=typd" target="_blank"><i class="fa fa-twitter-square fa-lg"></i></a></li>
                         <li><a href="https://instagram.com/explore/tags/mccsingspittsburgh/" target="_blank"><i class="fa fa-instagram fa-lg"></i></a></li>
@@ -165,7 +195,7 @@
         </nav>
 <!--End Navbar-->
         <div class="row adjust-vert">
-            <div class="col-md-6">
+            <div class="col-md-12">
             <div class="fb-like" data-href="http://www.mccsings.com" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>
 
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -179,9 +209,7 @@
   data-counturl="mccsings.com" data-count="none">
 Tweet</a>
             </div>
-            <div class="col-md-6">
 
-            </div>
         </div>
     </div>
 
@@ -192,6 +220,7 @@ Tweet</a>
     <script src="js/bootstrap.min.js"></script>
     <!--Twitter follow button JavaScript-->
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
 
 </body>
 </html>
