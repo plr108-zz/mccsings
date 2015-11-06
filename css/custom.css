@@ -7,20 +7,20 @@
     /*border: 1px solid black;*/
 }
 
-/* vertaical alignment of content in a Bootstrap column */
-.adjust-vert {
-  display: flex;
-  flex-direction: row;
-}
+@media only screen and (min-width: 701px) {
+  /* vertaical alignment of content in a Bootstrap column */
+  .adjust-vert {
+    display: flex;
+    flex-direction: row;
+  }
 
-.adjust-vert > [class^="col-"],
-.adjust-vert > [class*=" col-"] {
-  display: flex;
-  align-items: center;
+  .adjust-vert > [class^="col-"],
+  .adjust-vert > [class*=" col-"] {
+    display: flex;
+    align-items: center;
+  }
 }
-
 .navbar-inverse .nav>li>a {
-
 	color: white;
 	background-color: #9e1111;
 }
@@ -35,6 +35,22 @@
   .footer {
         display: none;
       }
+}
+
+@media only screen and (max-width: 700px) {
+  .header-logo {
+    background-color: purple;
+    margin: 0 auto;
+    max-width: 100%;
+    display: block;
+  }
+
+  .tagline {
+    display: block;
+    flex-direction: row;
+    font-size: 16px;
+    text-align: center;
+  }
 }
 
 
