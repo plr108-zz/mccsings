@@ -20,9 +20,23 @@
 }
 
 .navbar-inverse .nav>li>a {
+
 	color: white;
 	background-color: #9e1111;
 }
+
+@media only screen and (max-width: 1000px) {
+  .nav>li.social-collapse {
+        display: none;
+      }
+}
+
+@media only screen and (max-width: 768px) {
+  .footer {
+        display: none;
+      }
+}
+
 
 .navbar-inverse .nav>li>a:hover,
 .nav>li>a:focus {
