@@ -7,6 +7,15 @@
     /*border: 1px solid black;*/
 }
 
+.header-logo {
+  background-color: white;
+}
+
+.tagline-background {
+  box-sizing: border-box;
+  background-color: white;
+}
+
 @media only screen and (min-width: 701px) {
   /* vertaical alignment of content in a Bootstrap column */
   .adjust-vert {
@@ -20,28 +29,19 @@
     align-items: center;
   }
 }
+
 .navbar-inverse .nav>li>a {
-	color: white;
-	background-color: #9e1111;
+  color: white;
+  background-color: #9e1111;
 }
 
-@media only screen and (max-width: 1000px) {
-  .nav>li.social-collapse {
-        display: none;
-      }
-}
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 768px) {
   .navbar-brand {
+    display: none;
     display: none;
   }
 
-}
-
-@media only screen and (max-width: 768px) {
-  .footer {
-        display: none;
-      }
 }
 
 @media only screen and (max-width: 700px) {

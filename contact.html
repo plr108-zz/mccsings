@@ -21,9 +21,6 @@
     -->
     <link rel="stylesheet" href="css/custom.css">
 
-    <!--Style for snow background-->
-    <link rel="stylesheet" href="css/snowstyle.css">
-
     <!--jQuery--
     <script>
 
@@ -43,14 +40,7 @@
 
 </head>
 
-
-
-
 <body>
-
-<canvas id="canvas"></canvas>
-<script src="js/snowscript.js"></script>
-
     <!-- Start Facebook like/share root div and script-->
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
@@ -63,17 +53,16 @@
     </script>
     <!-- End Facebook like/share root div and script-->
 
+
     <!-- Start Bootstrap container -->
-    <div class="container container-main">
+    <div class="container">
         <!--Start Header-->
-        <div class="row header-row adjust-vert">
+        <div class="row header_row adjust-vert">
             <div class="col-md-4">
                 <img class="header-logo" src="images/logo.png" alt="Masterworks Concert Chorale">
             </div>
-            <div class="col-md-8 header-tagline">
-                <div class="tagline-background">
-                    <h3 class="tagline">Uplifting Voices.  Uplifting Spirits.  Uplifting Pittsburgh.</h3>
-                </div>
+            <div class="col-md-8 header">
+                <h3 class="tagline">Uplifting Voices.  Uplifting Spirits.  Uplifting Pittsburgh.</h3>
             </div>
         </div>
         <!--End Heaader-->
@@ -94,96 +83,116 @@
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Concerts and Tickets</a></li>
+                        <li><a href="#">Contact Us</a></li>
                         <li class="nav-li-large"><a href="#">Join Us!</a></li>
                     </ul>
 
+
+
                     <ul class="nav navbar-nav navbar-right">
 
+                    <!--Social dropdown--
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact / Social<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Mission Statement</a></li>
+                          <li><a href="#">History</a></li>
+                          <li role="separator" class="divider"></li>
+                          <li><a href="#">Board of Directors</a></li>
+                          <li><a href="#">Artistic Director</a></li>
+                          <li><a href="#">Accompanist</a></li>
+                          <li><a href="#">Members of the Chorus</a></li>
+                        </ul>
+                        </li>
+                    <!--End Social dropdown-->
+
+                        <li class="nav-li-small" title="Contact Us"><a href="#"><i class="fa fa-envelope-square fa-lg" ></i></a></li>
                         <li class="nav-li-large"><a href="#"><i class="fa fa-envelope-square fa-lg" ></i>&nbsp;&nbsp;&nbsp;Contact Us</a></li>
 
-                        <li title="Facebook"><a href="https://www.facebook.com/Masterworks-Concert-Chorale-152919821389553/" target="_blank"><i class="fa fa-facebook-official fa-lg" ></i>&nbsp;&nbsp;&nbsp;Facebook</a></li>
+                        <li title="Facebook"><a href="https://www.facebook.com/Masterworks-Concert-Chorale-152919821389553/" target="_blank"><i class="fa fa-facebook-official fa-lg" ></i></a></li>
                     </ul>
                 </div><!--/.nav-collapse -->
+
             </div><!--/.container-fluid -->
         </nav>
         <!--End Top Navbar-->
 
 <!--Start Jumbotron-->
         <div class="jumbotron">
-            <img class="img-responsive" src=images/gloria.jpg alt="Vivaldi's Gloria">
-            <p></p>
-            <p>Come enjoy a performance of Vivaldi's Gloria along with other wonderful Christmas treasures!</p>
-            <p></p>
-             <p>Saturday, November 21 at 7:30pm</p>
-             <p>Beulah Presbyterian Church, Churchill, PA</p>
-            <p>
-            <a class="btn btn-lg btn-primary" href="" role="button">Tickets and Directions &raquo;</a>
-            </p>
+            <h2>Contact Us!</h2>
+            <br>
+            <p>Masterworks Concert Chorale</p>
+            <p>4725 Old William Penn Highway</p>
+            <p>Murrysville, PA 15668</p>
+            <br>
+            <p>(412) 607-8108</p>
+            <br>
+            <p><a href="mailto:info@mccsings.com"><u>info@mccsings.com</u></a></p>
+        </div>
+
+        <div class="jumbotron">
+            <h2>Come sing with us!</h2>
+            <br>
+            <p>New members are always welcome!  Contact us to arrange an audition!</p>
         </div>
 <!--End Jumbotron-->
-<!--Start Thumbnails, commented out for now
-        <div class="row">
-            <div class="col-md-4">
-                <div class="thumbnail">
-                    <img class="img-responsive" src="http://placehold.it/200x100" alt="Placeholder Image">
-                    <div class="caption">
-                        <h3>X-Mas Music Sample #1</h3>
-                        <p>Awesome description of a music sample.</p>
-                    </div>
+
+<!--Start Social Links-->
+        <nav class="navbar navbar-inverse footer">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+
+                <a class="navbar-brand" href="#">Masterworks Concert Chorale</a>
+
                 </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="thumbnail">
-                    <img class="img-responsive" src="http://placehold.it/200x100" alt="Placeholder Image">
-                    <div class="caption">
-                        <h3>Vivaldi Sample</h3>
-                        <p>Awesome description of a music sample.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="thumbnail">
-                    <img class="img-responsive" src="http://placehold.it/200x100" alt="Placeholder Image">
-                    <div class="caption">
-                        <h3>X-Mas Music Sample #2</h3>
-                        <p>Awesome description of a music sample.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-<End Thumbnails,commented out for now-->
-
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Home</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="contact-us-small" title="Contact Us"><a href="#"><i class="fa fa-envelope-square fa-lg" ></i></a></li>
+                        <li class="contact-us-large"><a href="#"><i class="fa fa-envelope-square fa-lg" ></i>&nbsp;&nbsp;&nbsp;Contact Us</a></li>
+                        <li><a href="https://www.facebook.com/Masterworks-Concert-Chorale-152919821389553/" target="_blank"><i class="fa fa-facebook-official fa-lg" ></i></a></li>
+                        <li><a href="https://twitter.com/search?f=tweets&amp;q=%40MCCSingsPittsburgh&amp;src=typd" target="_blank"><i class="fa fa-twitter-square fa-lg"></i></a></li>
+                        <li><a href="https://instagram.com/explore/tags/mccsingspittsburgh/" target="_blank"><i class="fa fa-instagram fa-lg"></i></a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div><!--/.container-fluid -->
+        </nav>
+<!--End Navbar-->
         <div class="row adjust-vert">
             <div class="col-md-12">
             <div class="fb-like" data-href="http://www.mccsings.com" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>
-<!--Twitter links, commented out for now
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <!--Twitter Follow Button-->
             <a href="https://twitter.com/MCCSingsPittsburgh" class="twitter-follow-button" data-show-count="false" data-size="default" data-dnt="true">Follow @MCCSingsPittsburgh</a>
 
             &nbsp;
 
             <a class="twitter-share-button"
-              href="https://twitter.com/intent/tweet?text=Check%20out%20Masterworks%20Concert%20Chorale%20of%20Pittsburgh"
-                data-counturl="mccsings.com" data-count="none">
-            Tweet</a>
-<End Twitter links-->
-            </div> <!--End <div class="col-md-12"-->
+  href="https://twitter.com/intent/tweet?text=Check%20out%20Masterworks%20Concert%20Chorale%20of%20Pittsburgh"
+  data-counturl="mccsings.com" data-count="none">
+Tweet</a>
+            </div>
 
-        </div> <!--End <div class="row adjust-vert">-->
+        </div>
+    </div>
 
-
-    </div> <!--End  <div class="container">
-
-    <!-- Bootstrap core JavaScript -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <!--Twitter follow button JavaScript-->
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
 
 </body>
 </html>
