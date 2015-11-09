@@ -59,7 +59,15 @@
 
 @media only screen and (max-width: 420px) {
   .navbar-brand {
-    font-size: 12px;
+    font-size: 14px;
+  }
+
+  .jumbotron p {
+    font-size: 14px;
+  }
+
+  .btn-lg {
+   font-size: 16px;
   }
 }
 
@@ -130,6 +138,10 @@ i {
 
 .jumbotron {
   border: 1px solid #eee;
+}
+
+.jumbotron .img-responsive {
+  margin: 0 auto;
 }
 
 .jumbotron:hover,
