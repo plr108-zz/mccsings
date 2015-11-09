@@ -45,6 +45,11 @@ body {
   background-color: #9e1111;
 }
 
+.navbar-inverse .nav>li>a:hover,
+.nav>li>a:focus {
+    background-color: black;
+}
+
 i {
   color:white;
 }
@@ -54,7 +59,10 @@ i {
   border-color: black;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
     background-color: white;
     color: #9e1111;
     border: 1px solid black;
@@ -90,6 +98,7 @@ i {
   border: 1px solid #9e1111;
 }
 
+
 .jumbotron {
   border: 1px solid black;
 }
@@ -108,29 +117,18 @@ i {
   border: 1px solid #9e1111;
 }
 
-@media screen and (min-width: 701px) {
-  /* vertaical alignment of content in a Bootstrap column */
-  .adjust-vert {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .adjust-vert > [class^="col-"],
-  .adjust-vert > [class*=" col-"] {
-    display: flex;
-    align-items: center;
-  }
-}
-
-
-
-
-@media screen and (min-width: 768px) {
+@media only screen and (max-width: 420px) {
   .navbar-brand {
-    display: none;
-    display: none;
+    font-size: 14px;
   }
 
+  .jumbotron p {
+    font-size: 14px;
+  }
+
+  .btn-lg {
+   font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -146,21 +144,23 @@ i {
   }
 }
 
-@media screen and (max-width: 420px) {
-  .navbar-brand {
-    font-size: 14px;
+@media only screen and (min-width: 701px) {
+  .adjust-vert {
+    display: flex;
+    flex-direction: row;
   }
 
-  .jumbotron p {
-    font-size: 14px;
-  }
-
-  .btn-lg {
-   font-size: 16px;
+  .adjust-vert > [class^="col-"],
+  .adjust-vert > [class*=" col-"] {
+    display: flex;
+    align-items: center;
   }
 }
 
-.navbar-inverse .nav>li>a:hover,
-.nav>li>a:focus {
-    background-color: black;
+@media only screen and (min-width: 768px) {
+  .navbar-brand {
+    display: none;
+    display: none;
+  }
+
 }
