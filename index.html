@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta name="description" content="Masterworks Concert Chorale">
     <meta charset="utf-8">
@@ -23,7 +23,7 @@
     <!--Style for snow background-->
     <link rel="stylesheet" href="css/snowstyle.css">
 
-    <!--jQuery--
+    <!--jQuery, commented out for now.
     <script>
 
     $(document).ready(function(){
@@ -34,23 +34,18 @@
     </script>
     <!--End jQuery-->
 
-
-
-
     <!--Favicon-->
     <link rel="icon" href="icon16.png" type="image/png">
 
 </head>
 
-
-
-
 <body>
 
-<canvas id="canvas"></canvas>
-<script src="js/snowscript.js"></script>
+    <!--Canvas and script for background snowflakes-->
+    <canvas id="canvas"></canvas>
+    <script src="js/snowscript.js"></script>
 
-    <!-- Start Facebook like/share root div and script-->
+    <!-- Facebook root div and script for like/share buttons-->
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
@@ -65,18 +60,22 @@
     <!-- Start Bootstrap container -->
     <div class="container container-main">
         <!--Start Header-->
-        <div class="row header-row adjust-vert">
+        <div class="row text-center pagination-centered adjust-vert">
+
             <div class="col-md-4">
-                <img class="header-logo" src="images/logo.png" alt="Masterworks Concert Chorale">
-            </div>
-            <div class="col-md-8 header-tagline">
-                <div class="tagline-background">
-                    <h3 class="tagline">Uplifting Voices.  Uplifting Spirits.  Uplifting Pittsburgh.</h3>
+                <div class="thumbnail">
+                    <img class="header-logo" src="images/logo.png" alt="Masterworks Concert Chorale">
                 </div>
             </div>
+            <div class="col-md-8">
+                <div class="thumbnail">
+                <h3 class="tagline">Uplifting Voices.  Uplifting Spirits.  Uplifting Pittsburgh.</h3>
+                </div>
+            </div>
+
         </div>
-        <!--End Heaader-->
-        <!--Start Top Navbar-->
+        <!--End Header-->
+        <!--Start Navbar-->
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -105,11 +104,11 @@
                 </div><!--/.nav-collapse -->
             </div><!--/.container-fluid -->
         </nav>
-        <!--End Top Navbar-->
+        <!--End Navbar-->
 
-<!--Start Jumbotron-->
+        <!--Start Jumbotron-->
         <div class="jumbotron text-center pagination-centered">
-            <img class="img-responsive" src=images/gloria.jpg alt="Vivaldi's Gloria">
+            <img class="img-responsive img-rounded" src=images/gloria.jpg alt="Vivaldi's Gloria">
             <p></p>
             <p>Come enjoy a performance of Vivaldi's Gloria along with other wonderful Christmas treasures!</p>
             <p></p>
@@ -119,8 +118,9 @@
             <a class="btn btn-lg btn-primary" href="" role="button">Tickets and Directions &raquo;</a>
             </p>
         </div>
-<!--End Jumbotron-->
-<!--Start Thumbnails, commented out for now
+        <!--End Jumbotron-->
+
+        <!--Start Thumbnails, commented out for now
         <div class="row">
             <div class="col-md-4">
                 <div class="thumbnail">
@@ -152,24 +152,23 @@
                 </div>
             </div>
         </div>
-
-<End Thumbnails,commented out for now-->
+        <End Thumbnails,commented out for now-->
 
         <div class="row adjust-vert">
             <div class="col-md-12">
-            <div class="fb-like" data-href="http://www.mccsings.com" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>
-<!--Twitter links, commented out for now
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="fb-like" data-href="http://www.mccsings.com" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>
+                <!--Twitter links, commented out for now
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-            <a href="https://twitter.com/MCCSingsPittsburgh" class="twitter-follow-button" data-show-count="false" data-size="default" data-dnt="true">Follow @MCCSingsPittsburgh</a>
+                <a href="https://twitter.com/MCCSingsPittsburgh" class="twitter-follow-button" data-show-count="false" data-size="default" data-dnt="true">Follow @MCCSingsPittsburgh</a>
 
-            &nbsp;
+                &nbsp;
 
-            <a class="twitter-share-button"
-              href="https://twitter.com/intent/tweet?text=Check%20out%20Masterworks%20Concert%20Chorale%20of%20Pittsburgh"
-                data-counturl="mccsings.com" data-count="none">
-            Tweet</a>
-<End Twitter links-->
+                <a class="twitter-share-button"
+                  href="https://twitter.com/intent/tweet?text=Check%20out%20Masterworks%20Concert%20Chorale%20of%20Pittsburgh"
+                    data-counturl="mccsings.com" data-count="none">
+                Tweet</a>
+                <End Twitter links-->
             </div> <!--End <div class="col-md-12"-->
 
         </div> <!--End <div class="row adjust-vert">-->

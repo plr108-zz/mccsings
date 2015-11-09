@@ -3,12 +3,12 @@
     color: #676;
 }
 
-.col-md-12, .col-md-8, .col-md-6, .col-md-4 {
-    /*border: 1px solid black;*/
-}
-
 .header-logo {
   background-color: white;
+}
+
+.header-tagline {
+  height: auto;
 }
 
 .tagline-background {
@@ -16,18 +16,13 @@
   background-color: white;
 }
 
-@media only screen and (min-width: 701px) {
-  /* vertaical alignment of content in a Bootstrap column */
-  .adjust-vert {
-    display: flex;
-    flex-direction: row;
-  }
+.tagline {
+  color: rgb(24,19,9);
 
-  .adjust-vert > [class^="col-"],
-  .adjust-vert > [class*=" col-"] {
-    display: flex;
-    align-items: center;
-  }
+}
+
+.navbar-inverse .navbar-brand {
+  color: white;
 }
 
 .navbar-inverse .nav>li>a {
@@ -35,54 +30,9 @@
   background-color: #9e1111;
 }
 
-
-@media only screen and (min-width: 768px) {
-  .navbar-brand {
-    display: none;
-    display: none;
-  }
-
-}
-
-@media only screen and (max-width: 700px) {
-  .header-logo {
-    margin: 0 auto;
-    max-width: 100%;
-    display: block;
-    width: 200px;
-  }
-
-  .tagline {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 420px) {
-  .navbar-brand {
-    font-size: 14px;
-  }
-
-  .jumbotron p {
-    font-size: 14px;
-  }
-
-  .btn-lg {
-   font-size: 16px;
-  }
-}
-
-.navbar-inverse .nav>li>a:hover,
-.nav>li>a:focus {
-    background-color: black;
-}
-
-.navbar-inverse .navbar-brand {
-  color: white;
-}
-
 .navbar-inverse .navbar-brand:hover {
   color: white;
-  background-color: black;
+  background-color: rgb(72,72,72);
 }
 
 body {
@@ -130,6 +80,10 @@ i {
   text-align: center;
 }
 
+.thumbnail {
+  border: 1px solid black;
+}
+
 .thumbnail:hover,
 .thumbnail:focus,
 .thumbnail:active {
@@ -137,7 +91,11 @@ i {
 }
 
 .jumbotron {
-  border: 1px solid #eee;
+  border: 1px solid black;
+}
+
+.jumbotron p {
+    color: black;
 }
 
 .jumbotron .img-responsive {
@@ -148,4 +106,61 @@ i {
 .jumbotron:focus,
 .jumbotron:active {
   border: 1px solid #9e1111;
+}
+
+@media screen and (min-width: 701px) {
+  /* vertaical alignment of content in a Bootstrap column */
+  .adjust-vert {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .adjust-vert > [class^="col-"],
+  .adjust-vert > [class*=" col-"] {
+    display: flex;
+    align-items: center;
+  }
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+  .navbar-brand {
+    display: none;
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 700px) {
+  .header-logo {
+    margin: 0 auto;
+    max-width: 100%;
+    display: block;
+    width: 200px;
+  }
+
+  .tagline {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .navbar-brand {
+    font-size: 14px;
+  }
+
+  .jumbotron p {
+    font-size: 14px;
+  }
+
+  .btn-lg {
+   font-size: 16px;
+  }
+}
+
+.navbar-inverse .nav>li>a:hover,
+.nav>li>a:focus {
+    background-color: black;
 }
