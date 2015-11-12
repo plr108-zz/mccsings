@@ -53,8 +53,8 @@ i {
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active {
-    background-color: white;
-    color: #9e1111;
+    background-color: black;
+    color: white;
     border: 1px solid black;
 }
 
