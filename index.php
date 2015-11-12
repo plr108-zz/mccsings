@@ -26,7 +26,7 @@
              <p>Saturday, November 21 at 7:30pm</p>
              <p>Beulah Presbyterian Church, Churchill, PA</p>
             <p>
-            <a class="btn btn-lg btn-primary" href="" role="button">Tickets and Directions &raquo;</a>
+            <a class="btn btn-lg btn-primary" href="http://masterworks-concert-chorale.ticketleap.com/vivaldis-gloria-and-christmas-treasures/" target="_blank" role="button">Tickets and Directions &raquo;</a>
             </p>
         </div>
         <!--End Jumbotron-->
