@@ -66,7 +66,7 @@
             <br>
             <h3>Altos:</h3>  <p>Jennifer Davis, Emily Deemer, Betsy Gaillot, Sally Haleen, Natasha Lazich, Snezana Lazich, Priscilla Miller, Nancy Murdock, Mary Sue Roche, Jane Swelnis, Amy Thomas, Mary Ann Tomich, Gerry Williams, Valerie Wilson.</p>
             <br>
-            <p><h3>Tenors:</h3><p>Samuel Cowley, Paul Handel, Ken Limmer, Bill McMaster, Bill Rehkopf, Paul Rehkopf, Andrew Talarovich, Henry St. George Tucker.</p>
+            <p><h3>Tenors:</h3><p>Samuel Cowley, Paul Handel, Bill McMaster, Bill Rehkopf, Paul Rehkopf, Henry St. George Tucker.</p>
             <br>
             <p><h3>Basses:</h3><p>Brian Bogovich, Jim Brown, Lee Brown, Dennis Durbiano, Dennis Gounley, Alan Halperin, Bob Herold, Tom Holt, David Hykes, Don Latta, Gene Mariani, Fran Verri, Edward Wallace, Bob Washburn, Tom Zullo.</p>
         </div>

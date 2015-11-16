@@ -34,6 +34,10 @@
             <h2>Come sing with us!</h2>
             <br>
             <p>New members are always welcome!  Contact us to arrange an audition!</p>
+            <br>
+            <p>(412) 607-8108</p>
+            <br>
+            <p><a href="mailto:info@mccsings.com"><u>info@mccsings.com</u></a></p>
         </div>
 <!--End Jumbotron-->
 
