@@ -8,10 +8,11 @@ echo "
                     </a>
                 </div>
             </div>
-            <div class=\"col-md-8\">
+            <div class=\"col-md-8 tagline-column\">
                 <div class=\"thumbnail tagline\">
                     <a href=\"about.php\">
-                        <h3 class=\"\">Uplifting Voices.  Uplifting Spirits.  Uplifting Pittsburgh.</h3>
+                        <h3 class=\"tagline-break\">Uplifting Voices.  Uplifting Spirits.<br>Uplifting Pittsburgh.</h3>
+                        <h3 class=\"tagline-no-break\">Uplifting Voices.  Uplifting Spirits.  Uplifting Pittsburgh.</h3>
                     </a>
                 </div>
             </div>

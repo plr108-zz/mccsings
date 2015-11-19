@@ -7,8 +7,8 @@
   background-color: white;
 }
 
-.tagline {
-  color: rgb(24,19,9);
+.tagline a h3 {
+  color: rgb(3,46,99);
 }
 
 .navbar-inverse .navbar-brand {
@@ -38,6 +38,10 @@ body {
 .navbar-inverse .nav>li>a:hover,
 .nav>li>a:focus {
     background-color: black;
+}
+
+.navbar-brand {
+  display: none;
 }
 
 i {
@@ -106,13 +110,225 @@ i {
   border: 1px solid #9e1111;
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (min-width: 1200px) {
+
+  .tagline {
+    padding-top: 20px;
+    padding-left: auto;
+    padding-right: auto;
+    height: 109px;
+  }
+
+  .tagline-no-break {
+    display: block;
+  }
+
+  .tagline-break {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 1199px) {
+
+  .tagline {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 103px;
+  }
+
+  .tagline-break {
+    display: none;
+  }
+
+  .tagline-no-break {
+    display: block;
+    font-size: 21px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+
+  .tagline {
+    padding-top: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 86px;
+  }
+
+  .tagline a h3 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+  .header-logo {
+    margin: 0px;
+    display: block;
+    min-width: 200px;
+    width: 200px;
+  }
+
+  .tagline-column {
+    width: 100%;
+  }
+
+  .tagline {
+    height: 76px;
+    width: 100%;
+  }
+
+  .tagline a h3 {
+    font-size: 20px;
+  }
+
+  .tagline-break {
+    display: block;
+    margin-top: 15px;
+  }
+
+  .tagline-no-break {
+    display: none;
+  }
+
   .navbar-brand {
-    font-size: 14px;
+    display: block;
+  }
+
+  .jumbotron {
+    padding-right: 45px;
+    padding-left: 45px;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+
+  .header-logo {
+    margin: 0px;
+    display: block;
+    min-width: 200px;
+    width: 200px;
+  }
+
+  .tagline-column {
+    width: 100%;
+  }
+
+  .tagline {
+    height: 76px;
+    width: 100%;
+  }
+
+  .tagline a h3 {
+    font-size: 18px;
+  }
+
+  .tagline-break {
+    display: block;
+    margin-top: 15px;
+  }
+
+  .tagline-no-break {
+    display: none;
+  }
+
+  .navbar-brand {
+    display: block;
+  }
+
+  .jumbotron {
+    padding-right: 45px;
+    padding-left: 45px;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+
+  .header-logo {
+    margin: 0px;
+    display: block;
+    min-width: 200px;
+    width: 200px;
+  }
+
+  .tagline-column {
+    width: 100%;
+  }
+
+  .tagline {
+    height: 76px;
+    width: 100%;
+  }
+
+  .tagline a h3 {
+    font-size: 16px;
+  }
+
+  .tagline-break {
+    display: block;
+    margin-top: 17px;
+  }
+
+  .tagline-no-break {
+    display: none;
+  }
+
+  .navbar-brand {
+    display: block;
+  }
+
+  .jumbotron {
+    padding-right: 45px;
+    padding-left: 45px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+
+      .adjust-vert {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .adjust-vert > [class^="col-"],
+    .adjust-vert > [class*=" col-"] {
+      display: flex;
+      align-items: center;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+
+
+  .tagline {
+    display: none;
+  }
+
+  .header-logo {
+    margin: 0 auto;
+    max-width: 100%;
+    display: block;
+    width: 200px;
+    height: 83px;
+  }
+
+}
+
+
+@media only screen and (max-width: 420px) and (min-width: 310px) {
+  .navbar-brand {
+    font-size: 13px;
   }
 
   .jumbotron p {
     font-size: 14px;
+  }
+
+  .jumbotron {
+    padding-right: 15px;
+    padding-left: 15px;
   }
 
   .btn-lg {
@@ -120,36 +336,20 @@ i {
   }
 }
 
-@media screen and (max-width: 700px) {
-  .header-logo {
-    margin: 0 auto;
-    max-width: 100%;
-    display: block;
-    width: 200px;
-  }
-
-  .tagline {
-    display: none;
-  }
-}
-
-@media only screen and (min-width: 701px) {
-  .adjust-vert {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .adjust-vert > [class^="col-"],
-  .adjust-vert > [class*=" col-"] {
-    display: flex;
-    align-items: center;
-  }
-}
-
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 309px) {
   .navbar-brand {
-    display: none;
-    display: none;
+    font-size: 11px;
   }
 
+  .jumbotron p {
+    font-size: 14px;
+  }
+
+  .jumbotron {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .btn-lg {
+   font-size: 14px;
+  }
 }
