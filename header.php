@@ -4,7 +4,7 @@ echo "
             <div class=\"col-md-4\">
                 <div class=\"thumbnail\">
                     <a href=\"index.php\">
-                        <img class=\"header-logo\" src=\"images/logo.png\" href=\"index.php\" alt=\"Masterworks Concert Chorale\">
+                        <img class=\"header-logo\" src=\"images/logo.png\" alt=\"Masterworks Concert Chorale\">
                     </a>
                 </div>
             </div>

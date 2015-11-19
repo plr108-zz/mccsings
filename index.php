@@ -68,7 +68,7 @@
         <!--Start Footer-->
         <?php include 'footer.php';?>
         <!--End Footer-->
-    </div> <!--End  <div class="container">
+    </div> <!--End  <div class="container"-->
 
     <?php include 'social-buttons.php';?>
 
