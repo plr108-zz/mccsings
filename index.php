@@ -24,9 +24,14 @@
             <p>Thank you to everyone who attended our Fall concert!  Merry Christmas!</p>
             <p></p>
              <p></p>
-             <p>Interested in signing with us in the Spring?  Contact Us!</p>
+             <p>Interested in signing with us in the Spring?</p>
+             <p>New Member Auditions will be held on January 18th at 6:30 PM</p>
+             <p></p>
+             <p><a href="https://www.google.com/maps/place/Calvary+Lutheran+Church/@40.4246958,-79.6692353,17z/data=!3m1!4b1!4m2!3m1!1s0x8834c15caa856ab3:0xb3afc9c03ea314f" target="_blank">Calvary Lutheran Church</a></p>
+             <p>4725 Old William Penn Hwy</p>
+             <p>Murrysville, PA 15668</p>
             <p>
-            <a class="btn btn-lg btn-primary" href="contact.php" target="_blank" role="button">Contact Us &raquo;</a>
+            <a class="btn btn-lg btn-primary" href="contact.php" role="button">Contact Us &raquo;</a>
             </p>
         </div>
         <!--End Jumbotron-->
