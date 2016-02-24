@@ -44,7 +44,7 @@
         <!--Start Header-->
         <div class='row text-center pagination-centered adjust-vert'>
             <div class='col-md-4'>
-                <div class='thumbnail'>
+                <div class='thumbnail' data-bind="click: viewModel.showHome">
                     <a href='index.html'>
                         <img class='header-logo' src='images/logo.png' alt='Masterworks Concert Chorale'>
                     </a>
@@ -52,7 +52,7 @@
             </div>
             <div class='col-md-8 tagline-column'>
                 <div class='thumbnail tagline'>
-                    <a href='about.html'>
+                    <a data-bind="click: viewModel.showAbout">
                         <h3 class='tagline-break'>Uplifting Voices.  Uplifting Spirits.<br>Uplifting Pittsburgh.</h3>
                         <h3 class='tagline-no-break'>Uplifting Voices.  Uplifting Spirits.  Uplifting Pittsburgh.</h3>
                     </a>
@@ -89,7 +89,7 @@
         <!--End Navbar-->
         <!--Start Jumbotrons-->
         <!--Start Home Content-->
-        <div id="home" class="jumbotron text-center pagination-centered">
+        <div id="home" data-bind="visible: homeVisible()" class="jumbotron text-center pagination-centered">
             <img class="img-responsive img-rounded" src=images/sing.png alt="The MCC Choir singing at our Fall 2015 concert">
             <p></p>
             <p>Thank you to everyone who attended our Fall concert! Merry Christmas!</p>
@@ -107,7 +107,7 @@
         </div>
         <!--End Home Content-->
         <!--Start About Content-->
-        <div id="about">
+        <div id="about" data-bind="visible: aboutVisible()">
             <div class="jumbotron">
                 <h2>Mission Statement</h2>
                 <br>
@@ -165,7 +165,7 @@
         </div>
         <!--End About Content-->
         <!--Start Contact Content-->
-        <div id="contact">
+        <div id="contact" data-bind="visible: contactVisible()">
             <div class="jumbotron">
                 <h2>Contact Us!</h2>
                 <br>
