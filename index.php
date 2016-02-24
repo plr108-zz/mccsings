@@ -19,14 +19,19 @@
 
         <!--Start Jumbotron-->
         <div class="jumbotron text-center pagination-centered">
-            <img class="img-responsive img-rounded" src=images/gloria.jpg alt="Vivaldi's Gloria">
+            <img class="img-responsive img-rounded" src=images/sing.png alt="The MCC Choir singing at our Fall 2015 concert">
             <p></p>
-            <p>Come enjoy a performance of Vivaldi's Gloria along with other wonderful Christmas treasures!</p>
+            <p>Thank you to everyone who attended our Fall concert!  Merry Christmas!</p>
             <p></p>
-             <p>Saturday, November 21 at 7:30pm</p>
-             <p>Beulah Presbyterian Church, Churchill, PA</p>
+             <p></p>
+             <p>Interested in signing with us in the Spring?</p>
+             <p>New Member Auditions will be held on January 18th at 6:30 PM</p>
+             <p></p>
+             <p><a href="https://www.google.com/maps/place/Calvary+Lutheran+Church/@40.4246958,-79.6692353,17z/data=!3m1!4b1!4m2!3m1!1s0x8834c15caa856ab3:0xb3afc9c03ea314f" target="_blank">Calvary Lutheran Church</a></p>
+             <p>4725 Old William Penn Hwy</p>
+             <p>Murrysville, PA 15668</p>
             <p>
-            <a class="btn btn-lg btn-primary" href="http://masterworks-concert-chorale.ticketleap.com/vivaldis-gloria-and-christmas-treasures/" target="_blank" role="button">Tickets and Directions &raquo;</a>
+            <a class="btn btn-lg btn-primary" href="contact.php" role="button">Contact Us &raquo;</a>
             </p>
         </div>
         <!--End Jumbotron-->

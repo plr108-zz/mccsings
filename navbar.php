@@ -16,7 +16,7 @@ echo "
                     <ul class=\"nav navbar-nav\">
                         <li><a href=\"index.php\">Home</a></li>
                         <li><a href=\"about.php\">About</a></li>
-                        <li><a href=\"http://masterworks-concert-chorale.ticketleap.com/vivaldis-gloria-and-christmas-treasures/\" target=\"_blank\">Concerts and Tickets</a></li>
+                        <li><a href=\"\">Photo Gallery (Coming Soon!)</a></li>
                     </ul>
 
                     <ul class=\"nav navbar-nav navbar-right\">
