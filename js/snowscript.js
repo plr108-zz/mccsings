@@ -1,3 +1,5 @@
+// This snowflake effect was created by TheCodePlayer
+// Source: http://thecodeplayer.com/walkthrough/html5-canvas-snow-effect
 window.onload = function(){
 	//canvas init
 	var canvas = document.getElementById("canvas");
