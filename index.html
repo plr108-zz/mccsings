@@ -45,7 +45,7 @@
         <div class='row text-center pagination-centered adjust-vert'>
             <div class='col-md-4'>
                 <div class='thumbnail' data-bind="click: viewModel.showHome">
-                    <a href='index.html'>
+                    <a data-bind="click: viewModel.showHome">
                         <img class='header-logo' src='images/logo.png' alt='Masterworks Concert Chorale'>
                     </a>
                 </div>
@@ -70,15 +70,15 @@
                         <span class='icon-bar'></span>
                         <span class='icon-bar'></span>
                     </button>
-                    <a class='navbar-brand' href='#'>Masterworks Concert Chorale</a>
+                    <a class='navbar-brand' data-bind="click: viewModel.showHome">Masterworks Concert Chorale</a>
                 </div>
                 <div id='navbar' class='navbar-collapse collapse'>
                     <ul class='nav navbar-nav'>
-                        <li><a href='index.html'>Home</a></li>
-                        <li><a href='about.html'>About</a></li>
+                        <li><a data-bind="click: viewModel.showHome">Home</a></li>
+                        <li><a data-bind="click: viewModel.showAbout">About</a></li>
                     </ul>
                     <ul class='nav navbar-nav navbar-right'>
-                        <li class='nav-li-large'><a href='contact.html'><i class='fa fa-envelope-square fa-lg' ></i>&nbsp;&nbsp;&nbsp;Contact Us</a></li>
+                        <li class='nav-li-large'><a data-bind="click: viewModel.showContact"><i class='fa fa-envelope-square fa-lg' ></i>&nbsp;&nbsp;&nbsp;Contact Us</a></li>
                         <li title='Facebook'><a href='https://www.facebook.com/Masterworks-Concert-Chorale-152919821389553/' target='_blank'><i class='fa fa-facebook-official fa-lg' ></i>&nbsp;&nbsp;&nbsp;Facebook</a></li>
                     </ul>
                 </div>
@@ -102,7 +102,7 @@
             <p>4725 Old William Penn Hwy</p>
             <p>Murrysville, PA 15668</p>
             <p>
-                <a class="btn btn-lg btn-primary" href="contact.html" role="button">Contact Us &raquo;</a>
+                <a class="btn btn-lg btn-primary" data-bind="click: viewModel.showContact" role="button">Contact Us &raquo;</a>
             </p>
         </div>
         <!--End Home Content-->
