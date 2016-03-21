@@ -82,22 +82,45 @@
             <!--/.container-fluid -->
         </nav>
         <!--End Navbar-->
-        <!--Start Jumbotrons-->
+        <!--Start Main Content-->
         <!--Start Home Content-->
-        <div id="home" data-bind="visible: homeVisible()" class="jumbotron text-center pagination-centered">
-            <img class="img-responsive img-rounded" src=images/sing.png alt="The MCC Choir singing at our Fall 2015 concert">
-            <p></p>
-            <p>Join us for our next concert:</p>
-            <h2>MCC Presents: Night at the Movies</h2>
-            <p></p>
-            <p>Sunday April 17, 2016 at 3:00 PM</p>
-            <p></p>
-            <p><a href="https://goo.gl/maps/eJ2i3bfrQr52" target="_blank">First Presbyterian Church</a></p>
-            <p>3202 N Hills Rd, Murrysville, PA 15668</p>
-            <p>Murrysville, PA 15668</p>
-            <p>
-                <a class="btn btn-lg btn-primary" data-bind="click: viewModel.showContact" role="button">Contact Us &raquo;</a>
-            </p>
+        <div id="home" data-bind="visible: homeVisible()">
+            <div class="jumbotron text-center pagination-centered">
+                <img class="img-responsive img-rounded" src=images/sing.png alt="The MCC Choir singing at our Fall 2015 concert">
+                <p></p>
+                <h3>Join us for one of our spring concerts!</h3>
+                <h2 id="mcc-presents">MCC Presents: Night at the Movies</h2>
+                <p></p>
+                <div class="row center-thumbnail-row">
+                    <div class="col-sm-6">
+                        <div class="thumbnail center-thumbnail">
+                            <div class="caption">
+                                <h3 id="concert-1-date">Sunday April 17, 2016 at 3:00 PM</h3>
+                                <p></p>
+                                <p><a href="https://goo.gl/maps/eJ2i3bfrQr52" target="_blank">First Presbyterian Church</a></p>
+                                <p>3202 N Hills Rd, Murrysville, PA 15668</p>
+                                <p>Murrysville, PA 15668</p>
+                                <p><a href="http://masterworks-concert-chorale.ticketleap.com/masterworks-concert-chorale-presents-night-at-the-movies" target="_blank" class="btn btn-primary" role="button">Tickets</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="thumbnail">
+                            <div class="caption center-thumbnail">
+                                <h3 id="concert-1-date">Saturday April 23, 2016 at 7:30 PM</h3>
+                                <p></p>
+                                <p><a href="https://goo.gl/3HyuiG" target="_blank">The Lamp Theatre</a></p>
+                                <p>222 Main Street</p>
+                                <p>Irwin, PA 15642</p>
+                                <p><a href="http://lamptheatre.org/" target="_blank" class="btn btn-primary" role="button">Tickets</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p>
+                    <a class="btn btn-lg btn-primary" data-bind="click: viewModel.showContact" role="button">Contact Us &raquo;</a>
+                </p>
+            </div>
         </div>
         <!--End Home Content-->
         <!--Start About Content-->
