@@ -1,5 +1,5 @@
 * {
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #676;
 }
 
@@ -44,6 +44,10 @@ i {
     background-color: white;
     color: #9e1111;
     border: 1px solid black;
+}
+
+.fancy {
+    font-family: 'Limelight', cursive;
 }
 
 .header-logo {
@@ -111,7 +115,7 @@ i {
 }
 
 #mcc-presents {
-  color: #000;
+    color: #000;
 }
 
 @media only screen and (min-width: 1200px) {
