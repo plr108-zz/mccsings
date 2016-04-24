@@ -47,7 +47,7 @@
             </div>
             <div class='col-md-8 tagline-column'>
                 <div class='thumbnail tagline'>
-                    <a data-bind="click: viewModel.showAbout">
+                    <a class="tagline-link" data-bind="click: viewModel.showAbout">
                         <h3 class='tagline-break'>Uplifting Voices.  Uplifting Spirits.<br>Uplifting Pittsburgh.</h3>
                         <h3 class='tagline-no-break'>Uplifting Voices.  Uplifting Spirits.  Uplifting Pittsburgh.</h3>
                     </a>
@@ -82,32 +82,24 @@
             <!--/.container-fluid -->
         </nav>
         <!--End Navbar-->
-        <!--Start Main Content-->
         <!--Start Home Content-->
         <div id="home" data-bind="visible: homeVisible()">
             <div class="jumbotron text-center pagination-centered">
                 <img class="img-responsive img-rounded" src=images/sing.png alt="The MCC Choir singing at our Fall 2015 concert">
-                <p></p>
-                <h3><span class="glyphicon glyphicon-star" aria-hidden="true"></span>&nbsp;<span class="glyphicon glyphicon-star" aria-hidden="true"></span>&nbsp;<span class="glyphicon glyphicon-star" aria-hidden="true"></span>&nbsp;Join us tonight at the Lamp Theatre!&nbsp;<span class="glyphicon glyphicon-star" aria-hidden="true"></span>&nbsp;<span class="glyphicon glyphicon-star" aria-hidden="true"></span>&nbsp;<span class="glyphicon glyphicon-star" aria-hidden="true"></span></h3>
-                <p></p>
-                <div class="row center-thumbnail-row">
-                    <div class="jumbotron text-center pagination-centered"">
-                        <div class="thumbnail">
-                            <div class="caption center-thumbnail">
-                            <h2 class="fancy" id="mcc-presents">MCC Presents: Night at the Movies</h2>
-                                <p>Saturday April 23, 2016</p><p>7:30 PM</p>
-                                <p></p>
-                                <p><a href="https://goo.gl/3HyuiG" target="_blank">The Lamp Theatre</a></p>
-                                <p>222 Main Street</p>
-                                <p>Irwin, PA 15642</p>
-                                <p><a href="https://goo.gl/V6S6BS" target="_blank" class="btn btn-lg btn-primary" role="button">Tickets</a></p>
-                            </div>
-                        </div>
+                <div class="caption center-thumbnail ">
+                    <p></p>
+                    <p>Thank you to everyone who joined us for</p>
+                    <h3 class="fancy">A Night at the Movies</h3>
+                    <p></p>
+                    <p>We'll see you in the Fall!</p>
+                </div>
+                <div class="thumbnail">
+                    <div class="caption center-thumbnail">
+                        <p>Intereseted in Joining or Supporting Masterworks Concert Chorale?</p>
+                        <p></p>
+                        <a class="btn btn-lg btn-primary" data-bind="click: viewModel.showContact" role="button">Contact Us &raquo;</a>
                     </div>
                 </div>
-                <p>
-                    <a class="btn btn-lg btn-primary" data-bind="click: viewModel.showContact" role="button">Contact Us &raquo;</a>
-                </p>
             </div>
         </div>
         <!--End Home Content-->
@@ -193,19 +185,16 @@
             </div>
         </div>
         <!--End Contact Content-->
-        <!--End Jumbotrons-->
         <!--Start Footer-->
         <div class='row adjust-vert'>
             <div class='col-md-12'>
                 <div class='fb-like' data-href='http://www.mccsings.com' data-layout='button' data-action='like' data-show-faces='false' data-share='true'>
                 </div>
             </div>
-            <!--End <div class='col-md-12'-->
         </div>
-        <!--End <div class='row adjust-vert'>-->
         <!--End Footer-->
     </div>
-    <!--End  <div class="container"-->
+    <!--End outer container-->
     <!-- Bootstrap core JavaScript -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
