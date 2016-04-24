@@ -102,7 +102,19 @@ i {
 }
 
 .tagline a h3 {
-    color: rgb(3, 46, 99);
+    color: #000;
+}
+
+.tagline-link:hover {
+    text-decoration: none;
+}
+
+.tagline-break:hover {
+    color: #9e1111;
+}
+
+.tagline-no-break:hover {
+    color: #9e1111;
 }
 
 .thumbnail {
