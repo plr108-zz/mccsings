@@ -210,7 +210,7 @@ i {
     }
 }
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 685px) {
     .header-logo {
         margin: 0px;
         display: block;
