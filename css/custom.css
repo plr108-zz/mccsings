@@ -48,7 +48,6 @@ i {
 
 .fancy {
     font-family: 'Eczar', serif;
-    color: #000;
 }
 
 .header-logo {
@@ -101,6 +100,9 @@ i {
     display: none;
 }
 
+.red-text {
+  color: #9e1111;
+}
 .tagline a h3 {
     color: #000;
 }
