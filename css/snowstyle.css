@@ -1,0 +1,10 @@
+/* This snowflake effect was created by TheCodePlayer */
+/* Source: http://thecodeplayer.com/walkthrough/html5-canvas-snow-effect */
+body {
+	background-color: #6b92b9;
+}
+canvas {
+	display: absolute;
+	position: fixed;
+	z-index:-1;
+}

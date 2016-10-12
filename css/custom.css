@@ -15,7 +15,7 @@ i {
 
 .btn-primary {
     background-color: #9e1111;
-    border-color: black;
+    border-color: #dba34c;
 }
 
 .btn-primary:hover,
@@ -24,7 +24,7 @@ i {
 .btn-primary.active {
     background-color: black;
     color: white;
-    border: 1px solid black;
+    border: 1px solid #dba34c;
 }
 
 .caption h3 {
@@ -43,7 +43,7 @@ i {
 .dropdown-menu > li > a:focus {
     background-color: white;
     color: #9e1111;
-    border: 1px solid black;
+    border: 1px solid #dba34c;
 }
 
 .fancy {
@@ -56,7 +56,7 @@ i {
 }
 
 .jumbotron {
-    border: 1px solid black;
+    border: 1px solid #dba34c;
 }
 
 .jumbotron p {
@@ -118,7 +118,7 @@ i {
 }
 
 .thumbnail {
-    border: 1px solid black;
+    border: 1px solid #dba34c;
 }
 
 .thumbnail:hover,
