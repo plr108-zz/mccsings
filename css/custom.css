@@ -22,7 +22,7 @@ i {
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active {
-    background-color: black;
+    background-color: #040439;
     color: white;
     border: 1px solid #dba34c;
 }
@@ -72,6 +72,14 @@ i {
     border: 1px solid #9e1111;
 }
 
+a, a:hover {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #040439;
+}
+
 .navbar-inverse .navbar-brand {
     color: white;
 }
@@ -93,7 +101,7 @@ i {
 
 .navbar-inverse .nav>li>a:hover,
 .nav>li>a:focus {
-    background-color: black;
+    background-color: #040439;
 }
 
 .navbar-brand {
