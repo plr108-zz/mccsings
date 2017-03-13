@@ -1,5 +1,5 @@
 * {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
     color: #676;
 }
 
@@ -7,6 +7,12 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #040439;
+}
+
+canvas {
+	display: absolute;
+	position: fixed;
+	z-index:-1;
 }
 
 i {
@@ -47,7 +53,7 @@ i {
 }
 
 .fancy {
-    font-family: 'Eczar', serif;
+    font-family: 'Bangers', cursive;
 }
 
 .header-logo {
@@ -111,6 +117,11 @@ a:hover {
 .red-text {
   color: #9e1111;
 }
+
+.black {
+  color: black;
+}
+
 .tagline a h3 {
     color: #000;
 }
