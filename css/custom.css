@@ -6,13 +6,7 @@
 body {
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #040439;
-}
-
-canvas {
-	display: absolute;
-	position: fixed;
-	z-index:-1;
+    background-color: #FFF;
 }
 
 i {
@@ -21,7 +15,7 @@ i {
 
 .btn-primary {
     background-color: #9e1111;
-    border-color: #dba34c;
+    border: 1px solid #000;
 }
 
 .btn-primary:hover,
@@ -61,7 +55,7 @@ i {
 }
 
 .jumbotron {
-    border: 1px solid #dba34c;
+    border: 1px solid #000;
 }
 
 .jumbotron p {
@@ -75,7 +69,7 @@ i {
 .jumbotron:hover,
 .jumbotron:focus,
 .jumbotron:active {
-    border: 1px solid #9e1111;
+    border: 1px solid #000;
 }
 
 a, a:hover {
