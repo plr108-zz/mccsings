@@ -71,7 +71,7 @@ i {
 }
 
 .jumbotron {
-    border: 1px solid #000;
+    border: 3px solid #000;
     background-color: #fff;
 }
 
@@ -81,10 +81,6 @@ i {
 
 .jumbotron .img-responsive {
     margin: 0 auto;
-}
-
-.jumbotron:hover, .jumbotron:focus, .jumbotron:active {
-    border: 1px solid #000;
 }
 
 a, a:hover {
@@ -110,6 +106,7 @@ a:hover {
 }
 
 .navbar {
+    border: 3px solid black;
     border-radius: 0px;
     margin-bottom: 20px;
     background-color: #9e1111;
@@ -148,12 +145,8 @@ a:hover {
 }
 
 .thumbnail {
-    border: 1px solid #dba34c;
+    border: 3px solid #000;
     border-radius: 0px;
-}
-
-.thumbnail:hover, .thumbnail:focus, .thumbnail:active {
-    border: 1px solid #9e1111;
 }
 
 #mcc-presents {
