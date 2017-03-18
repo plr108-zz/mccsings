@@ -1,9 +1,16 @@
-/* Source for background-image: https://codepen.io/aanjulena/pen/xGrKh */
-
 .blue-dots {
+    /* Source for background-image: https://codepen.io/aanjulena/pen/xGrKh */
     padding: 1em;
     background-size: 8px 8px, 8px 8px, 8px 8px, 8px 8px, 8px 8px, 100% 100%;
     background-image: radial-gradient(ellipse farthest-corner, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 35%, #ffffff 30%, #ffffff 40%, rgba(0, 0, 0, 0) 90%), radial-gradient(ellipse farthest-corner at 0px 0px, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, #ffffff 15%, #ffffff 20%, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 8px 8px, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, #ffffff 15%, #ffffff 20%, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 0px 8px, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, #ffffff 15%, #ffffff 20%, rgba(0, 0, 0, 0) 40%), radial-gradient(ellipse farthest-corner at 8px 0px, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, #ffffff 15%, #ffffff 20%, rgba(0, 0, 0, 0) 50%), linear-gradient(40deg, #038ecf 0, #51cbf1 30%, #7ff9ff 50%, #51cbf1 70%, #038ecf 100%);
+}
+
+.yellow-background {
+    background-color: #fff665;
+}
+
+.blue-steel-background {
+    background-color: #6f83b3;
 }
 
 * {
@@ -27,13 +34,17 @@ i {
 
 .btn-primary {
     background-color: #9e1111;
-    border: 1px solid #000;
+    border: 3px solid #000;
+    font-family: 'Bangers', sans-serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px black;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
-    background-color: #040439;
-    color: white;
-    border: 1px solid #dba34c;
+    background-color: #9e1111;
+    border: 3px solid #000;
+    color: #fff665;
 }
 
 .caption h3 {
@@ -229,9 +240,6 @@ a:hover {
     .tagline-no-break {
         display: none;
     }
-    .navbar-brand {
-        display: block;
-    }
     .jumbotron {
         padding-right: 45px;
         padding-left: 45px;
@@ -260,9 +268,6 @@ a:hover {
     }
     .tagline-no-break {
         display: none;
-    }
-    .navbar-brand {
-        display: block;
     }
     .jumbotron {
         padding-right: 45px;
@@ -293,9 +298,6 @@ a:hover {
     .tagline-no-break {
         display: none;
     }
-    .navbar-brand {
-        display: block;
-    }
     .jumbotron {
         padding-right: 45px;
         padding-left: 45px;
@@ -310,6 +312,12 @@ a:hover {
     .adjust-vert>[class^="col-"], .adjust-vert>[class*=" col-"] {
         display: flex;
         align-items: center;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-brand {
+        display: block;
     }
 }
 
@@ -344,7 +352,7 @@ a:hover {
         padding-left: 15px;
     }
     .btn-lg {
-        font-size: 16px;
+        font-size: 20px;
     }
 }
 
@@ -360,6 +368,6 @@ a:hover {
         padding-left: 15px;
     }
     .btn-lg {
-        font-size: 14px;
+        font-size: 18px;
     }
 }
