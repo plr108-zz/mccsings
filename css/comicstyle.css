@@ -5,8 +5,22 @@
     background-image: radial-gradient(ellipse farthest-corner, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 35%, #ffffff 30%, #ffffff 40%, rgba(0, 0, 0, 0) 90%), radial-gradient(ellipse farthest-corner at 0px 0px, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, #ffffff 15%, #ffffff 20%, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 8px 8px, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, #ffffff 15%, #ffffff 20%, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 0px 8px, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, #ffffff 15%, #ffffff 20%, rgba(0, 0, 0, 0) 40%), radial-gradient(ellipse farthest-corner at 8px 0px, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, #ffffff 15%, #ffffff 20%, rgba(0, 0, 0, 0) 50%), linear-gradient(40deg, #038ecf 0, #51cbf1 30%, #7ff9ff 50%, #51cbf1 70%, #038ecf 100%);
 }
 
+.starburst-container {
+  width: 100%
+}
+
+.starburst {
+  display: block;
+  margin: auto;
+  width: 90%;
+}
+
 .yellow-background {
     background-color: #fff665;
+}
+
+.comic {
+  font-family: 'Komika', 'Lato', sans-serif;
 }
 
 .fancy {
