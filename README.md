@@ -6,4 +6,4 @@
 
 ###Project Overview
 
-This repository contains the Masterworks Concert Chorale site.  The site is for a non-profit concert chorale in Murrysville, PA.  The site is hosted on the web at http://www.mccsings.com
+This repository contains the Masterworks Concert Chorale site.  The site is for a non-profit concert chorale in Murrysville, PA.  The site is hosted on the web at http://www.mccsingspgh.org
