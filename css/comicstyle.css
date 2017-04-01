@@ -5,14 +5,22 @@
     background-image: radial-gradient(ellipse farthest-corner, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 35%, #ffffff 30%, #ffffff 40%, rgba(0, 0, 0, 0) 90%), radial-gradient(ellipse farthest-corner at 0px 0px, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, #ffffff 15%, #ffffff 20%, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 8px 8px, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, #ffffff 15%, #ffffff 20%, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 0px 8px, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, #ffffff 15%, #ffffff 20%, rgba(0, 0, 0, 0) 40%), radial-gradient(ellipse farthest-corner at 8px 0px, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, #ffffff 15%, #ffffff 20%, rgba(0, 0, 0, 0) 50%), linear-gradient(40deg, #038ecf 0, #51cbf1 30%, #7ff9ff 50%, #51cbf1 70%, #038ecf 100%);
 }
 
+.comic-text-bubble {
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 200px;
+    margin: auto;
+    padding: 1em 2em 1em 2em;
+}
+
 .starburst-container {
-  width: 100%
+    width: 100%
 }
 
 .starburst {
-  display: block;
-  margin: auto;
-  width: 100%;
+    display: block;
+    margin: auto;
+    width: 100%;
 }
 
 .yellow-background {
@@ -20,7 +28,7 @@
 }
 
 .comic {
-  font-family: 'Komika', 'Lato', sans-serif;
+    font-family: 'Komika', 'Lato', sans-serif;
 }
 
 .fancy {
@@ -29,13 +37,6 @@
 
 .header-logo {
     background-color: white;
-}
-
-.about-body-text {
-    font-family: 'Lato', sans-serif;
-    color: purple;
-    text-transform: none;
-    letter-spacing: normal;
 }
 
 .blue-steel-background {
@@ -67,7 +68,7 @@ i {
 }
 
 .btn-primary {
-    background-color: #9e1111;
+    background-color: #ff0000;
     border: 3px solid #000;
     font-family: 'Bangers', sans-serif;
     font-size: 30px;
@@ -76,9 +77,10 @@ i {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
-    background-color: #9e1111;
+    background-color: #ff0000;
     border: 3px solid #000;
     color: #fff665;
+    text-shadow: 3px 3px #00008e;
 }
 
 .caption h3 {
@@ -87,6 +89,16 @@ i {
 
 .caption p {
     text-align: center;
+}
+
+.venue-link {
+    color: black;
+    text-decoration: underline;
+}
+
+.venue-link:hover {
+    color: #00008e;
+    text-decoration: underline;
 }
 
 .dropdown-menu>li>a {
@@ -125,7 +137,11 @@ a, a:hover {
 }
 
 a:hover {
-    color: #040439;
+    color: #00008e;
+}
+
+.navbar-toggle.collapsed:hover, .navbar-toggle.collapsed:focus {
+    background-color: #00008e;
 }
 
 .navbar-inverse .navbar-brand {
@@ -146,7 +162,7 @@ a:hover {
 
 .navbar-inverse .navbar-brand:hover {
     color: white;
-    background-color: rgb(72, 72, 72);
+    background-color: #00008e;
 }
 
 .navbar {
@@ -157,7 +173,7 @@ a:hover {
 }
 
 .navbar-inverse .nav>li>a:hover, .nav>li>a:focus {
-    background-color: #040439;
+    background-color: #00008e;
 }
 
 .navbar-brand {
@@ -170,6 +186,10 @@ a:hover {
 
 .black {
     color: black;
+}
+
+.caped-crusader-purple-text {
+    color: #00008e;
 }
 
 .tagline a h3 {
@@ -202,6 +222,10 @@ a:hover {
     .tagline-break {
         display: none;
     }
+    .comic-text-bubble {
+        font-size: 18px;
+        width: 50%;
+    }
 }
 
 @media only screen and (max-width: 1199px) {
@@ -220,6 +244,10 @@ a:hover {
     .tagline-no-break {
         display: block;
         font-size: 21px;
+    }
+    .comic-text-bubble {
+        font-size: 16px;
+        width: 55%;
     }
 }
 
@@ -335,6 +363,10 @@ a:hover {
         display: flex;
         align-items: center;
     }
+    .comic-text-bubble {
+        font-size: 14px;
+        width: 70%;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -363,6 +395,10 @@ a:hover {
     .navbar-brand {
         font-size: 15px;
     }
+    .comic-text-bubble {
+        font-size: 12px;
+        width: 95%;
+    }
 }
 
 @media only screen and (max-width: 470px) {
@@ -371,6 +407,10 @@ a:hover {
     }
     .navbar-inverse .navbar-brand {
         font-family: 'Lato', sans-serif;
+    }
+    .comic-text-bubble {
+        font-size: 12px;
+        width: 95%;
     }
 }
 
@@ -384,6 +424,10 @@ a:hover {
     }
     .btn-lg {
         font-size: 20px;
+    }
+    .comic-text-bubble {
+        font-size: 12px;
+        width: 95%;
     }
 }
 
@@ -400,5 +444,9 @@ a:hover {
     }
     .btn-lg {
         font-size: 18px;
+    }
+    .comic-text-bubble {
+        font-size: 12px;
+        width: 95%;
     }
 }
