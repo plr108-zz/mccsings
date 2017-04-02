@@ -13,6 +13,14 @@
     padding: 1em 2em 1em 2em;
 }
 
+.green-picture {
+    width: 100%;
+}
+
+.green-thumbnail {
+    padding: 0;
+}
+
 .starburst-container {
     width: 100%
 }
