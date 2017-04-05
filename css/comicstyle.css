@@ -21,6 +21,14 @@
     padding: 0;
 }
 
+.red-picture {
+    width: 100%;
+}
+
+.red-thumbnail {
+    padding: 0;
+}
+
 .starburst-container {
     width: 100%
 }
