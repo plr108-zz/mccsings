@@ -1,0 +1,5 @@
+canvas {
+	display: absolute;
+	position: fixed;
+	z-index:-1;
+}
