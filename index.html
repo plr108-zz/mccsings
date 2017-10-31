@@ -8,16 +8,16 @@
     <!--Required for responsiveness-->
     <meta name='viewport' content='width=device-width,initial-scale=1'>
     <!--Google Fonts-->
-    <link href='https://fonts.googleapis.com/css?family=Lato|Bangers' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Poppins|Lato' rel='stylesheet' type='text/css'>
     <!--Font Awesome (for icons)-->
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
     <!--Using Bootstrap-->
     <link rel='stylesheet' href='css/bootstrap.min.css'>
     <!--Using jQuery, required for Bootstrap-->
     <script src='js/jquery-1.11.3.min.js'></script>
-    <!--Comics theme styling-->
-    <link rel='stylesheet' href='css/comicstyle.css'>
+    <!--Royal Christmas theme styling-->
     <link rel='stylesheet' href='css/royal.css'>
+    <!--Royal Christmas background styling-->
     <link rel='stylesheet' href='css/sky.css'>
     <!--Favicon-->
     <link rel='icon' href='icon16.png' type='image/png'>
@@ -93,18 +93,22 @@
           <div class="thumbnail yellow-background">
             <div class="caption center-thumbnail fancy">
               <br>
-              <h3>Coming soon, our winter concert:</h3>
+              <h3><b>Coming soon, our winter concert:</b></h3>
               <br>
-              <div class='starburst-container'>
+              <div id='poster-container'>
+                <a href='http://masterworks-concert-chorale.ticketleap.com/a-royal-christmas/' target='_blank'>
                 <img id='poster' src='images/poster.jpeg' alt='Masterworks Presents: A Royal Christmas.  Saturday December 2, 2017.  Murrysville Alliance Church.  Tickets $15 at the door.  For advance tickets call 412-874-7514'>
+              </a>
               </div>
+              <br>
+              <a class='btn btn-lg btn-primary' href='http://masterworks-concert-chorale.ticketleap.com/a-royal-christmas/' target='_blank'>Tickets available now</a>
             </div>
           </div>
-          <div class="thumbnail blue-steel-background">
+          <div class='thumbnail' id='join-us'>
             <div class="caption center-thumbnail">
-              <div class="black comic comic-text-bubble">Interested in Joining or Supporting Masterworks Concert Chorale?</div>
+              <div>Interested in Joining or Booking Masterworks Concert Chorale?</div>
               <p></p>
-              <a class="btn btn-lg btn-primary" data-bind="click: viewModel.showContact" role="button">Contact Us!</a>
+              <a class="btn btn-lg btn-primary" data-bind="click: viewModel.showContact" role="button">Contact Us</a>
             </div>
           </div>
         </div>
@@ -184,7 +188,7 @@
           <p>4725 Old William Penn Highway</p>
           <p>Murrysville, PA 15668</p>
           <br>
-          <p>(724) 244-5161</p>
+          <p>(412) 874-7514</p>
           <br>
           <p><a href="mailto:mccsingspittsburgh@gmail.com"><u>mccsingspittsburgh@gmail.com</u></a></p>
         </div>
@@ -193,7 +197,7 @@
           <br>
           <p>New members are always welcome! Contact us to arrange an audition!</p>
           <br>
-          <p>(724) 244-5161</p>
+          <p>(412) 874-7514</p>
           <br>
           <p><a href="mailto:mccsingspittsburgh@gmail.com"><u>mccsingspittsburgh@gmail.com</u></a></p>
         </div>
