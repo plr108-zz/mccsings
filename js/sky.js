@@ -14,8 +14,9 @@
 
 var sky = document.getElementById("sky");
 var bgCtx = sky.getContext("2d");
-var width = window.innerWidth * 5;
-var height = window.innerHeight * 5;
+var skyConstant = 4;
+var width = window.innerWidth * skyConstant;
+var height = window.innerHeight * skyConstant;
 
 sky.width = width;
 sky.height = height;
