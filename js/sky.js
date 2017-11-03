@@ -12,10 +12,10 @@
   window.requestAnimationFrame = requestAnimationFrame;
 })();
 
-var background = document.getElementById("sky"),
-  bgCtx = background.getContext("2d"),
-  width = window.innerWidth,
-  height = window.innerHeight;
+var background = document.getElementById("sky");
+var bgCtx = background.getContext("2d");
+var width = window.innerWidth;
+var height = window.innerHeight;
 
 background.width = width;
 background.height = height;
