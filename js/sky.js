@@ -82,9 +82,11 @@ ShootingStar.prototype.update = function() {
 };
 
 var entities = [];
-
+var area = width * height;
+var cosmologicalConstant = 3285;
+var starCount = Math.floor(area / cosmologicalConstant);
 // init the stars
-for (var i = 0; i < height; i++) {
+for (var i = 0; i < starCount; i++) {
   entities.push(new Star({
     x: Math.random() * width,
     y: Math.random() * height
