@@ -12,13 +12,13 @@
   window.requestAnimationFrame = requestAnimationFrame;
 })();
 
-var background = document.getElementById("sky");
-var bgCtx = background.getContext("2d");
+var sky = document.getElementById("sky");
+var bgCtx = sky.getContext("2d");
 var width = window.innerWidth;
 var height = window.innerHeight;
 
-background.width = width;
-background.height = height;
+sky.width = width;
+sky.height = height;
 bgCtx.fillStyle = '#05004c';
 bgCtx.fillRect(0, 0, width, height);
 
@@ -95,7 +95,7 @@ for (var i = 0; i < height; i++) {
 entities.push(new ShootingStar());
 entities.push(new ShootingStar());
 
-//animate background
+// animate sky
 function animate() {
 	// sky color
   bgCtx.fillStyle = '#483335';
