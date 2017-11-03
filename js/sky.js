@@ -97,7 +97,7 @@ entities.push(new ShootingStar());
 
 // animate sky
 function animate() {
-	// sky color
+  // sky color
   bgCtx.fillStyle = '#483335';
   bgCtx.fillRect(0, 0, width, height);
   bgCtx.fillStyle = '#FBF691';
