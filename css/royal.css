@@ -37,6 +37,16 @@ fa-lg {
   color: #fff665;
 }
 
+#elevator-pitch {
+  background-color: #ddd;
+}
+
+#sing {
+  max-height: 450px;
+  max-width: 100%;
+  border: 2px solid #000;
+}
+
 #poster {
   max-height: 450px;
   max-width: 100%;
