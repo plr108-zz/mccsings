@@ -90,33 +90,27 @@
       <!--Start Home Content-->
       <div id="home" data-bind="visible: homeVisible()">
         <div class="jumbotron text-center pagination-centered">
-          <div class='thumbnail' id='elevator-pitch'>
+          <div class='thumbnail' id='sing-thumbnail'>
             <div class="caption center-thumbnail">
               <img id='sing' src='images/sing.png' alt='A picture of the Masterworks Concert Chorale singing'>
-              Masterworks Concert Chorale is a non-profit community choir
-              based out of Murrysville, PA, east of Pittsburgh.  We perform
-              both sacred and secular music with the focus on uplifting and
-              inspiring music of many genres.
+              <div id='sing-text'><b>Masterworks Concert Chorale</b> is a non-profit community choir based out of Murrysville, PA, east of Pittsburgh. We perform both sacred and secular music with the focus on uplifting and inspiring music of many genres.
+              </div>
             </div>
           </div>
-          <div class="thumbnail yellow-background">
+          <div class='thumbnail' id='poster-thumbnail'>
             <div class="caption center-thumbnail fancy">
-              <br>
               <h3><b>Coming soon, our winter concert:</b></h3>
-              <br>
               <div id='poster-container'>
                 <a href='http://masterworks-concert-chorale.ticketleap.com/a-royal-christmas/' target='_blank'>
                   <img id='poster' src='images/poster.jpeg' alt='Masterworks Presents: A Royal Christmas.  Saturday December 2, 2017.  Murrysville Alliance Church.  Tickets $15 at the door.  For advance tickets call 412-874-7514'>
                 </a>
               </div>
-              <br>
               <a class='btn btn-lg btn-primary' href='http://masterworks-concert-chorale.ticketleap.com/a-royal-christmas/' target='_blank'>Tickets available now</a>
             </div>
           </div>
           <div class='thumbnail' id='join-us'>
             <div class="caption center-thumbnail">
               <div>Interested in Joining or Booking Masterworks Concert Chorale?</div>
-              <p></p>
               <a class="btn btn-lg btn-primary" data-bind="click: viewModel.showContact" role="button">Contact Us</a>
             </div>
           </div>

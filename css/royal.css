@@ -28,23 +28,29 @@ fa-lg {
 
 .btn-primary {
   background-color: #9e1111;
-  border: 3px solid #000;
+  border: 2px solid #000;
+  border-radius: 6px;
+  margin-top: 15px;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
   background-color: #9e1111;
-  border: 3px solid #000;
+  border: 2px solid #000;
   color: #fff665;
 }
 
-#elevator-pitch {
+#sing-thumbnail {
   background-color: #ddd;
 }
 
 #sing {
+  border: 2px solid #000;
   max-height: 450px;
   max-width: 100%;
-  border: 2px solid #000;
+}
+
+#sing-text {
+  padding-top: 10px;
 }
 
 #poster {
@@ -61,7 +67,7 @@ fa-lg {
   background-color: #ddd;
 }
 
-.yellow-background {
+#poster-thumbnail {
   background-color: #fff665;
 }
 
@@ -92,7 +98,7 @@ fa-lg {
 }
 
 .jumbotron {
-  border: 3px solid #000;
+  border: 1px solid #000;
   background-color: #fff;
 }
 
@@ -137,7 +143,7 @@ fa-lg {
 
 .navbar {
   background-color: #9e1111;
-  border: 3px solid black;
+  border: 1px solid black;
   border-radius: 0px;
   margin-bottom: 20px;
 }
@@ -162,7 +168,7 @@ fa-lg {
 }
 
 .thumbnail {
-  border: 3px solid #000;
+  border: 1px solid #000;
   border-radius: 0px;
 }
 
@@ -370,7 +376,7 @@ fa-lg {
     font-size: 14px;
   }
   .navbar-brand {
-    font-size: 11px;
+    font-size: 10px;
   }
   .jumbotron p {
     font-size: 14px;
