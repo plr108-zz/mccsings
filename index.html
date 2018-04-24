@@ -8,24 +8,21 @@
     <!--Required for responsiveness-->
     <meta name='viewport' content='width=device-width,initial-scale=1'>
     <!--Google Fonts-->
-    <link href='https://fonts.googleapis.com/css?family=Poppins|Lato' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <!--Font Awesome (for icons)-->
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
     <!--Using Bootstrap-->
     <link rel='stylesheet' href='css/bootstrap.min.css'>
     <!--Using jQuery, required for Bootstrap-->
     <script src='js/jquery-1.11.3.min.js'></script>
-    <!--Royal Christmas theme styling-->
-    <link rel='stylesheet' href='css/royal.css'>
     <!--Royal Christmas background styling-->
-    <link rel='stylesheet' href='css/sky.css'>
+    <link rel='stylesheet' href='css/style.css'>
     <!--Favicon-->
     <link rel='icon' href='icon16.png' type='image/png'>
   </head>
 
   <body>
     <canvas id='sky'></canvas>
-    <script src='js/sky.js'></script>
     <!-- Facebook root div and script for like/share buttons-->
     <div id='fb-root'></div>
     <script>
@@ -79,7 +76,7 @@
             </ul>
             <ul class='nav navbar-nav navbar-right'>
               <li class='nav-li-large'><a data-bind="click: viewModel.showContact"><i class='fa fa-envelope-square fa-lg'></i>&nbsp;&nbsp;&nbsp;Contact Us</a></li>
-              <li title='Facebook'><a href='https://www.facebook.com/Masterworks-Concert-Chorale-152919821389553/' target='_blank'><i class='fa fa-facebook-official fa-lg' ></i>&nbsp;&nbsp;&nbsp;Facebook</a></li>
+              <li title='Facebook'><a href='https://www.facebook.com/masterworksconcertchorale' target='_blank'><i class='fa fa-facebook-official fa-lg' ></i>&nbsp;&nbsp;&nbsp;Facebook</a></li>
             </ul>
           </div>
           <!--/.nav-collapse -->
@@ -90,6 +87,16 @@
       <!--Start Home Content-->
       <div id="home" data-bind="visible: homeVisible()">
         <div class="jumbotron text-center pagination-centered">
+          <div class='thumbnail' id='poster-thumbnail'>
+            <div class="caption center-thumbnail">
+              <div>
+                <a href='https://www.facebook.com/masterworksconcertchorale' target='_blank'>
+                  <img id='poster' src='images/poster.jpg' alt='Masterworks Presents -- Here, There, and Everywhere: A Journey Through Song.  Saturday April 28, 2018 7:30 PM.  Murrysville Alliance Church.  Tickets $15.  Call 412-874-7514'>
+                </a>
+              </div>
+              <a class='btn btn-lg btn-primary' href='https://masterworks-concert-chorale.ticketleap.com/here-there-and-everywhere-a-journey-through-song/' target='_blank'>Tickets available now</a>
+            </div>
+          </div>
           <div class='thumbnail' id='sing-thumbnail'>
             <div class="caption center-thumbnail">
               <img id='sing' src='images/sing.png' alt='A picture of the Masterworks Concert Chorale singing'>
@@ -97,21 +104,10 @@
               </div>
             </div>
           </div>
-          <div class='thumbnail' id='poster-thumbnail'>
-            <div class="caption center-thumbnail fancy">
-              <h3><b>Coming soon, our winter concert:</b></h3>
-              <div id='poster-container'>
-                <a href='http://masterworks-concert-chorale.ticketleap.com/a-royal-christmas/' target='_blank'>
-                  <img id='poster' src='images/poster.jpg' alt='Masterworks Presents: A Royal Christmas.  Saturday December 2, 2017.  Murrysville Alliance Church.  Tickets $15 at the door.  For advance tickets call 412-874-7514'>
-                </a>
-              </div>
-              <a class='btn btn-lg btn-primary' href='http://masterworks-concert-chorale.ticketleap.com/a-royal-christmas/' target='_blank'>Tickets available now</a>
-            </div>
-          </div>
           <div class='thumbnail' id='join-us'>
             <div class="caption center-thumbnail">
               <div>Interested in Joining or Booking Masterworks Concert Chorale?</div>
-              <a class="btn btn-lg btn-primary" data-bind="click: viewModel.showContact" role="button">Contact Us</a>
+              <a class='btn btn-lg btn-primary' data-bind='click: viewModel.showContact' role='button'>Contact Us</a>
             </div>
           </div>
         </div>

@@ -1,9 +1,0 @@
-body {
-	background-color: #483335;
-}
-
-canvas {
-  display: absolute;
-  position: fixed;
-  z-index: -1;
-}
